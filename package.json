@@ -1,0 +1,41 @@
+{
+  "name": "redux-form-models",
+  "version": "1.0.0",
+  "description": "Models for redux forms",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_PATH=./src mocha --recursive --require testHelper.js --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stanislavsky34200/redux-form-models.git"
+  },
+  "keywords": [
+    "redux",
+    "form",
+    "react",
+    "model"
+  ],
+  "author": "Stanislav Golikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stanislavsky34200/redux-form-models/issues"
+  },
+  "homepage": "https://github.com/Stanislavsky34200/redux-form-models#readme",
+  "dependencies": {
+    "redux-actions": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^4.1.2",
+    "chai-shallow-deep-equal": "^1.4.6",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.2",
+    "sinon-chai": "^2.14.0"
+  }
+}
