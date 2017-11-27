@@ -7,6 +7,8 @@
     "test": "test"
   },
   "scripts": {
+    "build": "babel src -d lib",
+    "prePublishOnly": "babel src -d lib",
     "test": "NODE_PATH=./src mocha --recursive --require testHelper.js --compilers js:babel-core/register"
   },
   "repository": {
@@ -29,6 +31,7 @@
     "redux-actions": "^2.2.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-2": "^6.24.1",
